@@ -112,9 +112,14 @@ var Accordion = React.createClass({
             overflow: 'scroll'
           }}
         >
-          <View ref="AccordionContent">
+          <TouchableOpacity
+            ref="AccordionContent"
+            onPress={this._onPress}
+            underlayColor={this.props.underlayColor}
+            style={this.props.style}
+          >
             {this.props.content}
-          </View>
+          </TouchableOpacity>
         </View>
       </View>
       /*jshint ignore:end */
