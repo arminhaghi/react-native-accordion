@@ -1,6 +1,6 @@
 {
   "name": "react-native-accordion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Accordion Component for React Native",
   "main": "index.js",
   "scripts": {
