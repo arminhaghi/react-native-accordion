@@ -109,7 +109,8 @@ var Accordion = React.createClass({
           ref="AccordionContentWrapper"
           style={{
             height: this.getTweeningValue('height'),
-            overflow: 'scroll'
+            overflow: 'scroll',
+            opacity: this.state.height === 0 ? 0 : 1,
           }}
         >
           <TouchableOpacity
